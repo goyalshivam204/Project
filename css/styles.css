@@ -1,0 +1,269 @@
+/* body-section */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+body{
+    margin: 0;
+font-family: 'Montserrat'
+}
+
+h3{
+    margin: 0;
+}
+p
+{
+    padding: 0;
+}
+
+
+
+
+/* navigation bar */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+#title .navbar-brand
+{
+    font-family: 'ubuntu';
+    font-size: 2rem;
+}
+#title .nav-item
+{
+    padding: 0 18px 0 18px;
+}
+
+#title .nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+
+
+/* title-Section */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+
+#title>.container-fluid
+{
+    padding:3% 10% 3% 10% ;
+}
+
+#title h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-top: 20%;
+}
+
+#title
+{
+    color: white;
+    background-color: #ff4c68;
+}
+
+/* title-image */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+#title-img
+{
+    width: 50%; 
+    margin-left: 30%;
+    transform: rotate(30deg);
+    /* z-index: -1; */
+    position: relative;
+    top: 15%;
+}
+
+
+/* buttons */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+.download-btn
+{
+    margin: 5% 3% 5% 0%;
+}
+
+/* section-Features */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+#features>.container-fluid
+{
+    padding:12% 10% 12% 10% ;
+    z-index: 1;
+    background-color: #fff;
+    position: relative;    /* for using Z-index using position: relative is necessary; */
+}
+
+#features .feature-heading
+{
+    text-align: center;
+    padding: 0;
+}
+
+
+#features .feature-heading>h3
+{
+    padding: 3% 10% 3% 10% ;
+    font-family: 'Montserrat' ;
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+
+#features .feature-heading>p
+{
+    padding: 3% 10% 3% 10%;
+    color: #8f8f8f;
+}
+
+
+
+#features .feature-heading>.fas
+{
+     /* font-size: 50px; */
+     color: #ef8172;
+}
+#features .feature-heading>.fas:hover
+{
+    filter: brightness(150%)
+}
+
+
+/* .testimonials-Section */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+#testimonials>.container-fluid
+{
+    background-color: #ef8172;
+  
+    color: white;
+    font-weight: 900;
+    /* font-family: 'Montserrat-Bold'; */
+    /* font-size: 3rem; */
+    text-align: center;
+}
+
+
+#testimonials .carousel-item
+{
+  padding: 5% 20% 5% 20%;
+}
+#testimonials .testimonial-image
+{
+    width: 17%;
+    border-radius: 50%;
+}
+
+#testimonials .testimonial-text
+{
+    font-weight: 900;
+    /* font-family: 'ubuntu'; */
+    padding-bottom: 5%;
+}
+#testimonials .slides
+{
+    padding: 10% 15% 10% 15%;
+}
+
+
+
+/* press-section */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+#press>.container-fluid
+{
+      background-color: #ef8172;
+      text-align: center;
+    padding: 3% 10% 3% 10%;
+}
+
+
+#press>.container-fluid img
+{
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+#press>.container-fluid img
+{
+    width: 40%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+}
+
+
+/* Princing-Section */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+#pricing 
+{
+  text-align: center;
+}
+#pricing>.container-fluid
+{
+    padding: 3% 7% 3% 7%;
+}
+
+#pricing>.container-fluid>p
+{
+    padding-bottom: 5%;
+}
+
+
+
+
+
+/* call-to-action-section */
+/* --------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+
+#call-to-action>.container-fluid
+{
+    text-align: center;
+    padding: 5% 15% 0%;
+    background-color: #ff4c68 ;
+}
+#call-to-action .btn
+{
+    margin: 5% 2%;
+}
+#call-to-action h3
+{
+    padding: 0% 20%;
+}
+
+
+/* footer-section */
+#footer>.container-fluid
+{
+    text-align: center;
+    padding: 5% 0;
+}
+#footer i
+{
+    padding:0 2%;
+}
+
+#footer p
+{
+    padding-top: 1%;
+}
